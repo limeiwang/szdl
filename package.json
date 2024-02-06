@@ -1,7 +1,7 @@
 {
   "name": "szdl",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "基于vue3的cli框架, 用于构建视化大屏项目",
   "main": "index.js",
   "bin": {
     "szdl": "bin/szdl.js"

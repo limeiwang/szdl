@@ -1,6 +1,6 @@
 'use strict'
 const exec = require('child_process').exec
-const projectUrl = 'https://github.com/limeiwang/szdl-vite.git'
+const projectUrl = 'https://github.com/limeiwang/szdl-cli.git'
 
 module.exports = () => {
     let cmdStr = `git clone `+projectUrl

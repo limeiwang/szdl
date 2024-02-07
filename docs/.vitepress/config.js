@@ -6,5 +6,8 @@ export default {
 
   themeConfig: {
     // 主题级选项
+    nav: [
+      { text: '首页', link: '/' },
+    ]
   }
 }

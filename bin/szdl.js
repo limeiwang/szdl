@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 'use strict'
 const { program } = require('commander')
+
 program
   .version(require('../package').version)
 
-program.command('init')
-  .description('pull a new project')
+program.command('init <projectName>')
+  .description('szdl-cli init')
   .alias('i')
   .action(() => {
       require('../command/init')()

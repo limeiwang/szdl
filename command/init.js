@@ -3,7 +3,7 @@ const exec = require('child_process').exec
 const projectUrl = 'https://github.com/limeiwang/szdl-cli.git'
 
 module.exports = () => {
-    let cmdStr = `git clone `+projectUrl
+    let cmdStr = `git clone ` + projectUrl
 
     exec(cmdStr, (error, stdout, stderr) => {
         if (error) {

@@ -1,6 +1,6 @@
 {
   "name": "szdl",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "基于vue3的cli框架, 用于构建视化大屏项目",
   "main": "index.js",
   "bin": {

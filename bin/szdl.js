@@ -8,8 +8,8 @@ program
 program.command('init <projectName>')
   .description('szdl-cli init')
   .alias('i')
-  .action(() => {
-      require('../command/init')()
+  .action((projectName) => {
+      require('../command/init')(projectName)
   })
 
 program.parse(process.argv)

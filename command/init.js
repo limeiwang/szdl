@@ -1,16 +1,13 @@
-'use strict'
-const exec = require('child_process').exec
-const projectUrl = 'https://github.com/limeiwang/szdl-cli.git'
+const download = require('download-git-repo')
+const projectUrl = 'https://github.com:limeiwang/szdl-cli#main'
 
-module.exports = () => {
-    let cmdStr = `git clone ` + projectUrl
-
-    exec(cmdStr, (error, stdout, stderr) => {
-        if (error) {
-            console.log(error)
-            process.exit()
-        }
-        console.log('初始化项目模板，成功了')
-        process.exit()
-    })
+module.exports = (projectName) => {
+  download(projectUrl, projectName, { clone: true }, (err) => {
+    if (err) {
+      console.log(err);
+      console.log("下载失败");
+    } else {
+      console.log("下载成功");
+    }
+  })
 }

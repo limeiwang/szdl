@@ -1,6 +1,6 @@
 {
   "name": "szdl",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "基于vue3的cli框架, 用于构建视化大屏项目",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,9 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^12.0.0",
-    "express": "^4.18.2"
+    "download-git-repo": "^3.0.2",
+    "express": "^4.18.2",
+    "inquirer": "^9.2.15"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-rc.42"

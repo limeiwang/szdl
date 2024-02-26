@@ -74,14 +74,3 @@ npm run dev
 2. 新建 Feat_xxx 分支
 3. 提交代码
 4. 新建 Pull Request
-
-## 特别鸣谢
-- [vue3](https://github.com/vuejs/vue-next)
-- [vite](https://github.com/vitejs/vite)
-- [pinia](https://github.com/vuejs/pinia)
-- [unocss](https://github.com/unocss/unocss)
-- [iconify](https://github.com/iconify/iconify)
-- [vite-plugin-svg-icons](https://github.com/vbenjs/vite-plugin-svg-icons)
-- [unplugin-auto-import](https://github.com/unplugin/unplugin-vue-components)
-- [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
-- [postcss-px-to-viewport-8-plugin](https://github.com/evrone/postcss-px-to-viewport-8-plugin)

@@ -1,76 +1,48 @@
-# szdl-cli
-szdl-cli 是一个大屏数据可视化工具，使用szdl-cli可以快速搭建可视化大屏。
+---
+# 提供三种布局，doc、page和home
+# 官方文档相关配置：https://vitepress.dev/reference/default-theme-layout
+layout: home
+home: true
 
-## 安装
+# 官方文档相关配置：https://vitepress.dev/reference/default-theme-home-page
+title: Home
+titleTemplate: Szdl CLI
+editLink: true
+lastUpdated: true
+
+hero:
+    name: Szdl CLI
+    text: 一个开箱即用的前端框架
+    tagline: 
+    actions:
+    - theme: brand
+      text: 起步 ➡
+      link: /start/index.md
+
+# 官方文档相关配置：https://vitepress.dev/reference/default-theme-features
+features:
+  - title: 极简
+    details: 基于Vue3、Vite、Antdv等最新技术栈开发，极简的配置，让你专注于业务开发。
+  - title: 快速
+    details: 无论应用程序大小如何，都始终极快的模块热重载（HMR），快速的开发，让你专注于业务开发。
+  - title: 高效
+    details: 对日常使用频率较高的组件二次封装,满足基础工作需求，让你专注于业务开发，提高开发效率。
+
+footer: MIT Licensed | Copyright © 2022-present szdl
+---
+
+## 快速开始
 
 ```bash
-npm install szdl-cli -g
+npm i szdl-cli -g
 ```
 
-## 使用
 ```bash
-szdl init <project-name>
+szdl init my-project
+```
 
-cd <project-name>
-
+```bash
+cd my-project
 npm install
-
 npm run dev
 ```
-
-## 技术栈
-- Vue3 - 核心框架
-- Vue Router - 路由管理
-- Vuex - 状态管理
-- Axios - 网络请求库
-- ECharts - 数据可视化库
-- Less - CSS预处理器
-- Ant Design Vue - 组件库
-- Vueuse - 组合式API工具库
-- Day.js - 时间处理库
-
-## 目录结构
-```
-|-- config - 配置文件
-|-- mock - 模拟数据
-|-- public - 静态资源
-|-- src - 源代码
-|   |-- api - 网络请求
-|   |-- assets - 静态资源
-|   |-- components - 组件
-|   |-- network - 网络请求封装
-|   |-- router - 路由
-|   |-- store - 状态管理
-|   |-- utils - 工具类
-|   |-- views - 页面
-|   |-- App.vue - 根组件
-|   |-- main.js - 入口文件
-|   |-- style.css - 全局样式
-|-- .env.development - 开发环境变量
-|-- .env.production - 生产环境变量
-|-- .env.test - 测试环境变量
-|-- .eslintrc.js - ESLint配置文件
-|-- .gitignore - Git忽略文件
-|-- package.json - 项目配置文件
-|-- postcss.config.js - PostCSS配置文件
-|-- README.md - 项目说明文件
-|-- vue.config.js - Vue配置文件
-```
-
-## 功能
-- 数据可视化
-- 组件库
-- 状态管理
-- 路由管理
-- 网络请求
-- 工具类
-
-## 计划
-- [x] 数据可视化
-- [x] 组件库
-
-## 参与贡献
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request

@@ -3,7 +3,7 @@
 
 export default {
   // 站点级选项
-  title: 'Szdl CLI',
+  title: 'Szdl',
   description: '数字道路前端开发脚手架',
 
   themeConfig: {

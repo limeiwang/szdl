@@ -6,12 +6,12 @@ home: true
 
 # 官方文档相关配置：https://vitepress.dev/reference/default-theme-home-page
 title: Home
-titleTemplate: Szdl CLI
+titleTemplate: Szdl
 editLink: true
 lastUpdated: true
 
 hero:
-    name: Szdl CLI
+    name: Szdl
     text: 一个开箱即用的前端框架
     tagline: 
     actions:
@@ -34,7 +34,7 @@ footer: MIT Licensed | Copyright © 2022-present szdl
 ## 快速开始
 
 ```bash
-npm i szdl-cli -g
+npm i szdl -g
 ```
 
 ```bash

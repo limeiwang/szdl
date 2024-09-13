@@ -2,20 +2,20 @@
 layout: doc
 ---
 
-# szdl-cli
-szdl-cli 是一个大屏数据可视化工具，使用szdl-cli可以快速搭建可视化大屏。
+# szdl
+szdl 是一个大屏数据可视化工具，使用szdl可以快速搭建可视化大屏。
 
 ## 安装
 > Node 版本要求  
-> Szdl CLI 需要 Node.js v20.0.0 或更高版本 (推荐 v20 以上)。你可以使用 n，nvm 或 nvm-windows 在同一台电脑中管理多个 Node 版本。
+> Szdl 需要 Node.js v20.0.0 或更高版本 (推荐 v20 以上)。你可以使用 n，nvm 或 nvm-windows 在同一台电脑中管理多个 Node 版本。
 
 可以使用下列任一命令安装这个新的包：
 ```bash
-npm install szdl-cli -g
+npm install szdl -g
 
 # or 
 
-yarn add szdl-cli -g
+yarn add szdl -g
 ```
 安装之后，你就可以在命令行中访问 szdl 命令。你可以通过简单运行 szdl，看看是否展示出了一份所有可用命令的帮助信息，来验证它是否安装成功。
 
